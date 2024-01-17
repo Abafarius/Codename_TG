@@ -3,9 +3,8 @@ import sys
 
 pg.init()
 
-# Определение цветов
-WHITE = (255, 255, 255)
 
+FPS = 10
 # Инициализация окна
 width, height = 1024, 768
 screen = pg.display.set_mode((width, height))
@@ -82,6 +81,6 @@ while True:
     current_frame = (current_frame + 1) % len(frames[current_direction])
 
     pg.display.flip()
-    clock.tick(10)  # Установите частоту обновления кадров
+    clock.tick(FPS)  # Установите частоту обновления кадров
 
 
