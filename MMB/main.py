@@ -21,7 +21,7 @@ pg.display.set_icon(icon)
 # bg3 = pg.image.load("resources/background/dungeon_tiles.png")
 # bg3 = pg.transform.scale(bg3, (bg3.get_width()*3, bg3.get_height()*3))
 # bg3 = bg3.subsurface((500, 0, 195, 240))
-bg1 = pg.image.load("resources/background/BG1.png")
+bg1 = pg.image.load("resources/background/tree_backg.png")
 bg1 = pg.transform.scale(bg1, (bg1.get_width()*1.6, bg1.get_height()*1.2))
 
 # Загрузка спрайта
