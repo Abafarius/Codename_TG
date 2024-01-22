@@ -11,6 +11,7 @@ screen = pg.display.set_mode((width, height))
 pg.display.set_caption("Magic Mastery Boss")
 icon = pg.image.load('resources/icons/robe.png')
 pg.display.set_icon(icon)
+
 # bg1 = pg.image.load("resources/background/dunge.png")
 # bg1 = pg.transform.scale(bg1, (bg1.get_width()*4, bg1.get_height()*4))
 # x, y, bg_width, bg_height = 0, 0, 340, 376
@@ -26,7 +27,7 @@ bg1 = pg.transform.scale(bg1, (bg1.get_width()*4, bg1.get_height()*3))
 
 # Загрузка спрайта
 sprite_sheet = pg.image.load("resources/GG_mage/new_img/mage-dark.png")
-
+#45 64
 # Разделение спрайта на кадры
 sprite_width, sprite_height = 45, 64
 sprite_sheet = pg.transform.scale(sprite_sheet, (sprite_sheet.get_width()*2, sprite_sheet.get_height()*2))
